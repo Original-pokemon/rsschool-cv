@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  line-height: 65px;
+  color: #3f3f3f;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900px;
+}
+
+.bold-item {
+  font-weight: 600;
+}
+
+/* container */
+
+.container {
+  width: 100%;
+  max-width: 2550px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  background: #373434;
+}
+
+.header-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+  color: #e7e7e7;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.avatar {
+  max-width: 50%;
+  max-height: 50%;
+
+  border: 6px solid #e4e4e3;
+}
+
+.info {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: 66px;
+  line-height: 88px;
+  list-style: none;
+}
+
+.contact {
+  font-size: 40px;
+  line-height: 140px;
+  list-style: none;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+/* Main */
+
+.about-me {
+  width: 100%;
+  line-height: 2;
+}
+
+.about-me-item {
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
