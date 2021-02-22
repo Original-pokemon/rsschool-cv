@@ -8,14 +8,18 @@
 
 body {
   font-family: "Lato", sans-serif;
-  font-size: ;
-  line-height: ;
   color: #3f3f3f;
 }
 
 h1 {
   font-size: 28px;
   font-weight: 900;
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 38px;
+  }
 }
 
 li {
@@ -35,9 +39,15 @@ li {
 
 .container {
   width: 100%;
-  max-width: 2550px;
+  max-width: 2000px;
   margin: auto;
   padding: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    padding: 42px;
+  }
 }
 
 /* Header */
@@ -48,10 +58,52 @@ li {
 }
 
 .header-inner {
+  display: flex;
+  flex-direction: column;
   color: #e7e7e7;
 }
 
+@media only screen and (min-width: 992px) {
+  .header-inner {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .header-inner {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 .header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .header-left {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .header-right {
+    position: absolute;
+    left: 665px;
+    top: 250px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .header-right {
+    position: static;
+  }
+
+  .header-left {
+    align-items: center;
+  }
 }
 
 .avatar {
@@ -69,13 +121,45 @@ li {
   line-height: 1.5;
 }
 
+@media only screen and (min-width: 600px) {
+  .info {
+    flex-direction: column;
+
+    font-size: 42px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .info {
+    margin: 0 15px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .info {
+    line-height: 3;
+  }
+}
+
 .info-elem {
   padding: 0 2px;
 }
+
 .contact {
   padding-top: 15px;
   font-size: 20px;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 600px) {
+  .contact {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .contact {
+    line-height: 4;
+  }
 }
 
 .header-link {
@@ -89,9 +173,24 @@ li {
   font-size: 18px;
   line-height: 1.5;
 }
-.about-me {
-  width: ;
+
+.section {
+  margin: 10px 0;
 }
 
-.flex {
+@media only screen and (min-width: 600px) {
+  .main {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .row {
+    width: 50%;
+  }
 }
