@@ -167,6 +167,14 @@ li {
   color: #e7e7e7;
 }
 
+.header-link:hover {
+  color: turquoise;
+}
+
+.header-link:active {
+  color: rgb(69, 224, 64);
+}
+
 /* Main */
 .main {
   background: #ffffff;
