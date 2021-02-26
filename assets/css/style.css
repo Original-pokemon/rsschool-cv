@@ -45,7 +45,7 @@ img {
 /* Header */
 
 .header {
-  background: #161b25;
+  background: #051436;
 }
 
 .header-wrapper {
@@ -62,7 +62,7 @@ img {
 }
 
 .header-text {
-  color: #ffffff;
+  color: #ffffffd8;
 }
 
 .name {
@@ -77,9 +77,18 @@ img {
 }
 
 .header-link {
-  color: #ffffff;
+  color: #ffffffd8;
   text-decoration: none;
   font-weight: 300;
+}
+
+.header-link:hover {
+  color: #00fff0;
+  text-decoration: underline;
+}
+
+.header-link:active {
+  color: #0d348d;
 }
 
 /* Aside */
