@@ -43,7 +43,7 @@ function capital(capitals) {
 
 ### Education
 
-2018-2021
+2018-2022
 :
 SPO,Security in Telecommunications and Information Technology,ZKNO
 
