@@ -14,25 +14,25 @@
 body {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
-  font-size: 41.67px;
-  line-height: 66.67px;
+  font-size: 15px;
+  line-height: 30px;
   background: rgb(56, 56, 56);
 }
 
 h1 {
-  font-size: 150px;
-  line-height: 175px;
+  font-size: 50px;
+  line-height: 75px;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 83.33px;
-  line-height: 58.33px;
+  font-size: 30px;
+  line-height: 32px;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 41.67px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -44,7 +44,7 @@ img {
 /* Container */
 
 .container {
-  max-width: 2555px;
+  max-width: 1200px;
   margin: 30px auto;
 }
 
@@ -56,15 +56,15 @@ img {
 
 .header-wrapper {
   display: flex;
-  height: 1406px;
-  padding-left: 272px;
-  padding-top: 290px;
-  padding-bottom: 180px;
+  height: 658px;
+  padding-left: 120px;
+  padding-top: 150px;
+  padding-bottom: 120px;
 }
 
 .avatar {
-  margin-right: 170px;
-  border: 5px solid #00fff0;
+  margin-right: 80px;
+  border: 2px solid #e8f8f7;
 }
 
 .header-text {
@@ -72,7 +72,7 @@ img {
 }
 
 .name {
-  margin-bottom: 106px;
+  margin-bottom: 20px;
 }
 
 .contact {
@@ -80,7 +80,7 @@ img {
 }
 
 .contact-elem {
-  margin-bottom: 54px;
+  margin-bottom: 10px;
 }
 
 .header-link {
@@ -93,15 +93,15 @@ img {
 
 .left-aside {
   background: #e7e8e9;
-  border-right: 4px solid #00fff0;
+  border-right: 2px solid #00fff0;
 }
 
 .aside-wrapper {
   display: flex;
   flex-direction: column;
-  padding-left: 391px;
-  padding-top: 164px;
-  padding-right: 180px;
+  padding-left: 120px;
+  padding-top: 77px;
+  padding-right: 140px;
 }
 
 .aside-section {
@@ -109,14 +109,15 @@ img {
 }
 
 .aside-section-title {
-  padding-bottom: 116px;
+  padding-bottom: 54px;
 }
 
 /* Main */
 
 .main {
   display: flex;
-  border-top: 4px solid #00fff0;
+  border-top: 2px solid #00fff0;
+  border-bottom: 2px solid #00fff0;
 
   background: #ffffff;
 }
@@ -124,14 +125,15 @@ img {
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  padding-left: 169px;
-  padding-top: 164px;
+
+  padding-left: 90px;
+  padding-top: 77px;
 }
 
 .main-section {
-  padding-bottom: 116px;
+  padding-bottom: 54px;
 }
 
 .main-section-title {
-  padding-bottom: 68px;
+  padding-bottom: 32px;
 }
