@@ -10,6 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 41.67px;
   line-height: 66.67px;
+  background: rgb(56, 56, 56);
 }
 
 h1 {
@@ -57,7 +58,7 @@ img {
 
 .avatar {
   margin-right: 170px;
-  border: 5px solid #ffffff;
+  border: 5px solid #00fff0;
 }
 
 .header-text {
@@ -67,7 +68,6 @@ img {
 .name {
   margin-bottom: 106px;
 }
-
 .contact {
   list-style: none;
 }
@@ -80,4 +80,51 @@ img {
   color: #ffffff;
   text-decoration: none;
   font-weight: 300;
+}
+
+/* Aside */
+
+.left-aside {
+  background: #e7e8e9;
+  border-right: 4px solid #00fff0;
+}
+
+.aside-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 391px;
+  padding-top: 164px;
+  padding-right: 180px;
+}
+
+.aside-section {
+  padding-bottom: 116px;
+}
+
+.aside-section-title {
+  padding-bottom: 116px;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  border-top: 4px solid #00fff0;
+
+  background: #ffffff;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 169px;
+  padding-top: 164px;
+}
+
+.main-section {
+  padding-bottom: 116px;
+}
+
+.main-section-title {
+  padding-bottom: 68px;
 }
