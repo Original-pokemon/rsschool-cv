@@ -4,7 +4,7 @@
 
 - email: eremkin-02@mail.ru
 - Phone: +7 (977) 504-92-13
-- Telegram: [@vinsent_VG](https://t.me/vinsent_VG)
+- Telegram: [@lg_rmkn](https://t.me/lg_rmkn)
 
 ## About Me
 
