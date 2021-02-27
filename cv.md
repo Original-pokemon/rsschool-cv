@@ -47,7 +47,7 @@ function capital(capitals) {
 
 2018-2022
 :
-SPO,Security in Telecommunications and Information Technology,ZKNO
+SPO, Security in Telecommunications and Information Technology, ZKNO
 
 ### Languages
 
