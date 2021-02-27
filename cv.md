@@ -15,7 +15,8 @@
 ### Work experience
 
 - RSS student: soon there will be something here
-- Code example: [landing page](https://github.com/Original-pokemon/Mogo)
+
+### Code example
 
 ```
 function capital(capitals) {
@@ -32,6 +33,7 @@ function capital(capitals) {
   }
   return arr;
 }
+
 ```
 
 ### Skills and competencies
