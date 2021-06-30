@@ -47,9 +47,6 @@ img {
 
 .header {
   background: #161b25;
-}
-
-.header-wrapper {
   height: 658px;
   padding-left: 120px;
   padding-top: 150px;
@@ -86,13 +83,10 @@ img {
 /* Aside */
 
 .left-aside {
-  background: #e7e8e9;
-}
-
-.aside-wrapper {
   padding-left: 120px;
   padding-top: 77px;
   padding-right: 140px;
+  background: #e7e8e9;
 }
 
 .aside-section {
@@ -106,12 +100,9 @@ img {
 /* Main */
 
 .main {
-  background: #ffffff;
-}
-
-.main-wrapper {
   padding-left: 90px;
   padding-top: 77px;
+  background: #ffffff;
 }
 
 .main-section {
