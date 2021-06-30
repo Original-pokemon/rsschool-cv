@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  line-height: 2em;
+
+  background: rgb(56, 56, 56);
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.7em;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 600;
+  padding-bottom: 1.2em;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 95%;
+  }
+}
+
+/* Container */
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "aside main";
+  grid-template-columns: 40% 1fr;
+  grid-gap: 0.2vw;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  background: #00fff0;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-areas:
+      "header header"
+      "aside aside"
+      "main main";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Section */
+
+.section {
+  padding-bottom: 15%;
+}
+
+/* Header */
+
+.header {
+  display: grid;
+  grid-area: header;
+  grid-template-areas: "avatar text";
+  grid-template-columns: 30% 1fr;
+  grid-gap: 8vw;
+  padding-left: 15%;
+  padding-top: 15%;
+  padding-bottom: 12%;
+
+  background: #161b25;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    grid-template-areas:
+      "avatar avatar"
+      "text text";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.avatar {
+  grid-area: avatar;
+
+  border: 2px solid #e8f8f7;
+}
+
+.header-text {
+  grid-area: text;
+
+  color: #ffffff;
+}
+
+.name {
+  margin-bottom: 4%;
+}
+
+.contact {
+  list-style: none;
+}
+
+.contact-elem {
+  margin-bottom: 2%;
+}
+
+.header-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+/* Aside */
+
+.aside {
+  grid-area: aside;
+  padding-top: 19%;
+  padding-right: 4%;
+  padding-left: 15%;
+
+  background: #e7e8e9;
+}
+
+/* Main */
+
+.main {
+  grid-area: main;
+  padding-top: 10%;
+  padding-right: 4%;
+  padding-left: 15%;
+
+  background: #ffffff;
+}
