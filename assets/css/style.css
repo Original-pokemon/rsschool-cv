@@ -41,12 +41,6 @@ img {
   height: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  img {
-    max-width: 95%;
-  }
-}
-
 /* Container */
 
 .container {
@@ -85,9 +79,11 @@ img {
   grid-template-areas: "avatar text";
   grid-template-columns: 30% 1fr;
   grid-gap: 8vw;
-  padding-left: 15%;
+
   padding-top: 15%;
+  padding-right: 10%;
   padding-bottom: 12%;
+  padding-left: 10%;
 
   background: #161b25;
 }
@@ -136,8 +132,8 @@ img {
 .aside {
   grid-area: aside;
   padding-top: 19%;
-  padding-right: 4%;
-  padding-left: 15%;
+  padding-right: 10%;
+  padding-left: 10%;
 
   background: #e7e8e9;
 }
@@ -147,8 +143,8 @@ img {
 .main {
   grid-area: main;
   padding-top: 10%;
-  padding-right: 4%;
-  padding-left: 15%;
+  padding-right: 10%;
+  padding-left: 10%;
 
   background: #ffffff;
 }
