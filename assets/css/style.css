@@ -127,6 +127,14 @@ img {
   font-weight: 300;
 }
 
+.header-link:hover {
+  color: #ffffff80;
+}
+
+.header-link:active {
+  color: #00fff0;
+}
+
 /* Aside */
 
 .aside {
