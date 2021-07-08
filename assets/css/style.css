@@ -103,13 +103,13 @@ img {
   border: 2px solid #e8f8f7;
 }
 
-.header-text {
+.info {
   grid-area: text;
 
   color: #ffffff;
 }
 
-.name {
+.info__name {
   margin-bottom: 4%;
 }
 
@@ -117,7 +117,7 @@ img {
   list-style: none;
 }
 
-.contact-elem {
+.contact__elem {
   margin-bottom: 2%;
 }
 
