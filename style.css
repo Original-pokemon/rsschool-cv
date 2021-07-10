@@ -28,7 +28,7 @@ h2 {
   font-size: 2em;
   line-height: 1em;
   font-weight: 600;
-  padding-bottom: 1.2em;
+  padding-bottom: 1.2rem;
 }
 
 h3 {
@@ -55,6 +55,7 @@ img {
 
   background: #00fff0;
 }
+
 @media only screen and (max-width: 600px) {
   .container {
     grid-template-areas:
@@ -77,12 +78,12 @@ img {
   display: grid;
   grid-area: header;
   grid-template-areas: "avatar text";
-  grid-template-columns: 30% 1fr;
-  grid-gap: 8vw;
+  grid-template-columns: 38% 1fr;
+  grid-gap: 2vw;
 
-  padding-top: 15%;
+  padding-top: 10%;
   padding-right: 10%;
-  padding-bottom: 12%;
+  padding-bottom: 8%;
   padding-left: 10%;
 
   background: #161b25;
@@ -94,13 +95,71 @@ img {
       "avatar avatar"
       "text text";
     grid-template-columns: 1fr 1fr;
+
+    padding-top: 25%;
   }
+}
+
+.ham {
+  display: none;
+
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .ham {
+    display: flex;
+  }
+}
+
+.xIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  color: white;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.menu-elem {
+  padding: 0.5rem 3rem;
+}
+
+.menuLink {
+  display: inline;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
 }
 
 .avatar {
   grid-area: avatar;
 
   border: 2px solid #e8f8f7;
+  margin-bottom: 2rem;
 }
 
 .info {
