@@ -1,6 +1,6 @@
 var menu = document.querySelector(".menu");
 var ham = document.querySelector(".ham");
-var xIcon = document.querySelector(".xIcon");
+var xIcon = document.getElementById("xIcon");
 var menuIcon = document.querySelector(".menuIcon");
 
 ham.addEventListener("click", toggleMenu);
