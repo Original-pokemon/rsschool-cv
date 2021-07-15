@@ -75,11 +75,11 @@ img {
 /* Header */
 
 .header {
-  display: grid;
   grid-area: header;
-  grid-template-areas: "avatar text";
-  grid-template-columns: 38% 1fr;
-  grid-gap: 1vw;
+
+  display: flex;
+  flex-wrap: wrap;
+
   padding-top: 10%;
   padding-right: 10%;
   padding-bottom: 8%;
@@ -173,8 +173,15 @@ img {
 
 .info {
   grid-area: text;
+  padding-left: 2vw;
 
   color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .info {
+    padding-left: 0;
+  }
 }
 
 .info__name {
