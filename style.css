@@ -79,8 +79,7 @@ img {
   grid-area: header;
   grid-template-areas: "avatar text";
   grid-template-columns: 38% 1fr;
-  grid-gap: 2vw;
-
+  grid-gap: 1vw;
   padding-top: 10%;
   padding-right: 10%;
   padding-bottom: 8%;
